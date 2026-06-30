@@ -25,10 +25,7 @@ MySQL Workbench has a built-in Table Data Import Wizard. Here's how:
 
 1. **Right-click the table** in the left sidebar (e.g., `companies`)
 2. Select **"Table Data Import Wizard"**
-3. **Browse** for the CSV file:
-   - Navigate to: `C:\Users\tlez1\OneDrive\מסמכים\Claude\Projects\Weekly Schedule\Portfolio_Projects\`
-   - Select the corresponding CSV (e.g., `companies.csv`)
-4. **Click Next** through the wizard:
+3. **Click Next** through the wizard:
    - Column mapping should auto-detect correctly
    - Review the preview
    - Click "Next" until you see "Import Complete"
