@@ -1,4 +1,4 @@
-# 📊 TalentFlow — A/B Testing Ad Creative Performance
+# TalentFlow — A/B Testing Ad Creative Performance
 
 > Which ad creative wins the customer-acquisition battle — and can we *prove* it isn't just luck?
 
@@ -23,7 +23,7 @@ I analyzed a **10,000-customer A/B test** of three ad creatives for *TalentFlow*
 
 ---
 
-## 🎯 The Business Question
+## The Business Question
 
 For a growing recruitment SaaS, **a few percentage points of conversion is worth millions** across the acquisition funnel. The marketing team ran three ad creatives and needed to know:
 
@@ -42,7 +42,7 @@ The three creatives tested distinct value propositions:
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 ### 1. Creative A wins overall — and convincingly beats B
 
@@ -70,7 +70,7 @@ A chi-square test confirms creative choice genuinely affects conversion (**p < 0
 
 ---
 
-## 💡 Recommendation
+## Recommendation
 
 > **Scale A as the primary creative. Keep C as a proven alternative. Retire B.**
 
@@ -81,7 +81,7 @@ A chi-square test confirms creative choice genuinely affects conversion (**p < 0
 
 ---
 
-## 🛠️ How I Built It
+## How I Built It
 
 | Stage | Tooling | What I did |
 |:------|:--------|:-----------|
@@ -105,7 +105,6 @@ TalentFlow_AbTest/
 ├── sql/
 │   ├── talentflow_schema.sql          ← table definitions
 │   ├── load_data.sql                  ← data load script
-│   └── talentflow_sql_queries.md      ← analysis queries
 ├── notebooks/
 │   └── Talent_Flow_Statistics.ipynb   ← statistical testing
 ├── visuals/                           ← generated charts
@@ -115,7 +114,7 @@ TalentFlow_AbTest/
 
 ---
 
-## ▶️ Reproduce It
+## Reproduce It
 
 ```bash
 # 1. Generate the synthetic dataset
@@ -131,7 +130,7 @@ jupyter notebook notebooks/Talent_Flow_Statistics.ipynb
 
 ---
 
-## ⚠️ Note on the Data
+## Note on the Data
 
 This project uses a **synthetic dataset** built for portfolio demonstration, with parameters grounded in real SaaS benchmarks (conversion ranges, churn by company size, ARR tiers). It showcases the analytical workflow end-to-end; the numbers are illustrative, not from a live campaign.
 
